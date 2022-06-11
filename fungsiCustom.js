@@ -23,7 +23,7 @@ const fs = require('fs');
 const getSecondWord = (words) => {
 
   const word = words.split(' ');
-  console.log(word[1]);
+  return word[1];
 
 }
 
